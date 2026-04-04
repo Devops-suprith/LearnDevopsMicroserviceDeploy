@@ -1,0 +1,47 @@
+# .github/CODEOWNERS
+# Last matching rule wins — keep general rules on TOP
+
+# -----------------------------------------------
+# Global Fallback — catches everything unmatched
+# -----------------------------------------------
+*   @Devops-suprith/tech-leads
+
+# -----------------------------------------------
+# API Gateway — DevOps owns routing/gateway config
+# -----------------------------------------------
+/api-gateway/   @Devops-suprith/devops-team @suprithdevops32-beep
+
+# -----------------------------------------------
+# Frontend
+# -----------------------------------------------
+/frontend/   @Devops-suprith/frontend-team @suprith14325
+
+# -----------------------------------------------
+# Order Service
+# -----------------------------------------------
+/order-service/   @Devops-suprith/backend-team @suprith14325
+
+# -----------------------------------------------
+# Product Service
+# -----------------------------------------------
+/product-service/   @Devops-suprith/backend-team @suprith14325
+
+# -----------------------------------------------
+# Service Registry — critical infra, devops owns it
+# -----------------------------------------------
+/service-registry/   @Devops-suprith/devops-team
+
+# -----------------------------------------------
+# CI/CD & Repo Config — only devops-team touches this
+# -----------------------------------------------
+/.github/   @Devops-suprith/devops-team
+
+# -----------------------------------------------
+# Docker Compose — infra level
+# -----------------------------------------------
+/docker-compose.yml   @Devops-suprith/devops-team
+
+# -----------------------------------------------
+# Docs
+# -----------------------------------------------
+*.md   @Devops-suprith/tech-leads
