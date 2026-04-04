@@ -1,0 +1,15 @@
+{
+  "app": {
+    "name": "MyApp",
+    "version": "1.0.0",
+    "environment": "development"
+  },
+  "api": {
+    "baseUrl": "https://api.myapp.com",
+    "timeout": 5000
+  },
+  "features": {
+    "darkMode": true,
+    "notifications": true
+  }
+}
